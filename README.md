@@ -1,13 +1,13 @@
-#Initialize project
+# Initialize project
 
 Open terminal in the root folder of the project
 
-###Create VirtualEnv
+### Create VirtualEnv
 ```bash
 python -m venv venv
 ```
 
-###Activate VirtualEnv
+### Activate VirtualEnv
 ```cmd
 # for Windows
 venv\Scripts\activate
@@ -18,7 +18,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-###Install dependencies in VirtualEnv
+### Install dependencies in VirtualEnv
 
 ```bash
 pip install -r requirements.txt
